@@ -89,4 +89,4 @@ def health_check():
 
 @app.get("/")
 def root():
-    return {"message": "VectorCheck API - Send PDF URLs to /vector-check endpoint"}}
+    return {"message": "VectorCheck API - Send PDF URLs to /vector-check endpoint"}
